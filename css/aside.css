@@ -1,0 +1,13 @@
+.news-ads {
+  float: right;
+  width: 250px;
+}
+
+.banner-link {
+  display: block;
+  width: 100%;
+}
+
+.banner-link:not(:last-child) {
+  margin-bottom: 16px;
+}

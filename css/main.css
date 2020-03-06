@@ -1,0 +1,303 @@
+.main-content {
+  padding: 22px 0 57px;
+}
+
+/* Simple news */
+.news-day {
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+
+  font-size: 14px;
+
+  background-color: #ffffff;
+}
+.news-day h2,
+.news-day h3 {
+  margin: 0;
+}
+
+.news-day-title {
+  padding: 23px 20px 23px;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.news-day-list {
+  margin: 0;
+  padding: 25px 15px 18px 20px;
+
+  list-style-type: none;
+}
+
+.news {
+  clear: both;
+  margin-bottom: 12px;
+
+  color: #000000;
+}
+
+.news-title {
+  padding-top: 3px;
+
+  font: 14px/20px "Arial", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.news-info {
+  margin-top: 5px;
+  margin-bottom: 0;
+
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.news-category {
+  margin-right: 5px;
+
+  font-size: 11px;
+  color: #91919f;
+}
+
+.news-category::before {
+  content: "/ ";
+}
+
+.news-time .news-info {
+  text-align: right;
+}
+
+.news-time {
+  padding-left: 14px;
+
+  background-image: url("../img/icon-clock.png");
+  background-size: 10px 10px;
+  border: 0;
+}
+
+.news-comments {
+  padding-left: 15px;
+
+  background-image: url("../img/icon-comments.png");
+  background-size: 11px 11px;
+  border: 0;
+}
+
+.news-time,
+.news-comments {
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.news-category {
+  float: left;
+}
+
+.news-time {
+  position: relative;
+  right: 68px;
+
+  float: right;
+}
+
+.news-comments {
+  float: right;
+  margin-right: -25px;
+}
+
+/* Link all news */
+.news-all {
+  margin: 0 auto 25px;
+
+  text-align: center;
+}
+.link-all {
+  position: relative;
+
+  display: inline-block;
+  margin-left: 4px;
+  padding: 14px 48px;
+
+  color: #448ccb;
+  text-decoration: none;
+
+  border: 1px solid #448ccb;
+  border-radius: 26px;
+}
+
+/* Main news */
+.news-main {
+  float: left;
+  width: 460px;
+}
+
+.news-big {
+  position: relative;
+
+  padding: 110px 20px 31px 21px;
+
+  color: #ffffff;
+}
+
+.news-big .news-category {
+  display: inline-block;
+
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.news-big .news-link {
+  margin-top: 32px;
+  margin-bottom: 13px;
+}
+
+.news-big .news-link a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+}
+
+.news-big .news-time {
+  right: 0;
+
+  float: none;
+  margin-left: 13px;
+  padding-left: 11px;
+
+  background-image: url("../img/clock.png");
+  background-size: 10px 10px;
+}
+
+.news-big-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.news-wrapper {
+  padding-top: 20px;
+}
+
+.news-wrapper .news {
+  display: inline-block;
+  width: 220px;
+  max-width: 220px;
+  margin-bottom: 9px;
+}
+
+.news-wrapper .news:nth-child(odd) {
+  float: left;
+  margin-right: 20px;
+}
+
+.news-photo {
+  height: 142px;
+}
+
+.news-wrapper .news-title {
+  margin-top: -2px;
+
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.025em;
+}
+
+.news-wrapper .news-time {
+  right: 105px;
+}
+
+.news-wrapper .news-comments {
+  margin-right: 10px;
+}
+
+/* Most read news */
+.most-read {
+  clear: both;
+  padding-top: 14px;
+}
+
+.most-read .news-big {
+  float: left;
+  width: 587px;
+  padding: 104px 20px 31px 21px;
+}
+
+.most-read .news-big-photo {
+  height: 394px;
+}
+
+.most-read .news-big .news-link {
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.most-read .news-big .news-info {
+  margin-top: 0;
+
+  line-height: 20px;
+}
+
+.most-read .news-big .news-time {
+  right: 0;
+}
+
+.most-read  .news-desc {
+  margin-top: 19px;
+
+  letter-spacing: 0.07em;
+}
+
+.most-read .news-wrapper {
+  float: right;
+  width: 413px;
+
+  line-height: 21px;
+  letter-spacing: -0.02em;
+}
+
+.most-read .news-day-list {
+  padding-top: 26px;
+}
+
+.most-read-title {
+  padding-top: 8px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+
+  font-size: 20px;
+
+  border-bottom: 1px solid #ebebeb;
+}
+.most-read .news {
+  float: none;
+  min-width: 100%;
+}
+
+.most-read .news:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.most-read .news .news-title {
+  font-size: 16px;
+  letter-spacing: -0.018em;
+}
+
+.most-read .news-time {
+  right: 263px;
+}
+
+.most-read .news-comments {
+  margin-right: 170px;
+}

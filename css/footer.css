@@ -1,0 +1,137 @@
+.footer {
+  padding-top: 39px;
+
+  color: #ffffff;
+
+  background-color: #00122f;
+}
+
+.footer-main {
+  margin-bottom: 27px;
+}
+
+/* Footer nav */
+.footer .footer-nav .footer-nav-list {
+  float: left;
+  max-width: 250px;
+  padding: 0;
+
+  list-style-type: none;
+  columns: 2;
+}
+
+.footer .footer-nav .footer-nav-item {
+  margin-bottom: 13px;
+  padding: 0;
+
+  list-style-type: none;
+}
+.footer .footer-nav-item:nth-child(n + 6) {
+  margin-left: 7px;
+}
+
+/* Footer info */
+.footer-info {
+  float: left;
+  margin-left: 188px;
+}
+
+.footer-logo {
+  margin-top: 22px;
+}
+
+.footer-info .footer-nav .footer-nav-list {
+  columns: 1;
+}
+
+/* Footer contacts */
+.footer-contacts {
+  float: right;
+  max-width: 250px;
+  padding-left: 29px;
+}
+
+.list-socials {
+  display: inline;
+
+  list-style-type: none;
+}
+
+.list-socials .social:not(:last-child) a {
+  margin-right: 20px;
+}
+
+.list-socials .social a {
+  float: left;
+  padding: 20px;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+}
+
+.list-socials .social .vk {
+  background-image: url("./../img/social/vk.png");
+}
+
+.list-socials .social .fb {
+  background-image: url("./../img/social/fb.png");
+}
+
+.list-socials .social .tw {
+  background-image: url("./../img/social/tw.png");
+}
+
+.list-socials .social > .insta {
+  background-image: url("./../img/social/inst.png");
+}
+
+.footer-adds {
+  margin-top: 82px;
+
+  letter-spacing: -0.025em;
+}
+
+.footer-email,
+.footer-phone {
+  font-style: normal;
+  font-size: 18px;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.footer-phone {
+  display: inline-block;
+  padding-left: 34px;
+
+  background-image: url("../img/icon-phone.png");
+  background-size: 15px 15px;
+  border: 0;
+}
+
+.footer-email {
+  display: inline-block;
+  margin-top: 23px;
+  padding-left: 34px;
+
+  background-image: url("../img/icon-envelope.png");
+  background-size: 13px 10px;
+  border: 0;
+}
+
+/* Footer rights */
+.footer-rights {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+  text-align: center;
+
+  border-top: 1px solid #26354e;
+}
+.footer-rights small {
+  font-size: 13px;
+  color: #ebebeb;
+  letter-spacing: 0.015em;
+}

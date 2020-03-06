@@ -1,0 +1,197 @@
+/* Header */
+.header {
+  font-size: 16px;
+
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+.header-intro {
+  padding-top: 21px;
+  padding-bottom: 9px;
+
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: -0.019em;
+
+  background-color: #00122f;;
+}
+
+.intro-description {
+  float: left;
+  margin-bottom: 10px;
+
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.intro-time {
+  float: right;
+}
+
+/* Header info*/
+.header-info {
+  padding: 40px 0 35px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-add-info {
+  margin-right: 40px;
+  padding-top: 5px;
+
+  color: #91919f;
+}
+
+.header-city {
+  position: relative;
+
+  float: left;
+  margin-right: 45px;
+  margin-left: 60px;
+  padding-top: 7px;
+
+  font-size: 0;  /* обнуляем шрифт, чтобы убрать текст label */
+}
+
+.header-city::after {
+  content: "";
+  position: absolute;
+  right: 17px;
+  bottom: 0;
+  left: 0;
+
+  height: 1px;
+
+  border-bottom: 2px dashed #448ccb;
+}
+
+.header-city-list {
+  padding-right: 17px;
+  padding-bottom: 2px;
+
+  font-size: 16px; /* Восстанавливаем шрифт */
+  color: #448ccb;
+
+  background: url("../img/icon-shevron-down.png") 100% center no-repeat;
+  background-size: 10px 5px;
+  border: 0;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.header-time,
+.header-weather {
+  float: left;
+  padding: 5px 0;
+}
+
+.header-time span,
+.header-weather {
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.header-time {
+  margin-right: 22px;
+}
+
+.header-time span {
+  display: inline-block;
+  margin-left: 35px;
+  padding-left: 25px;
+
+  background-image: url("../img/icon-clock.png");
+  background-size: 16px 16px;
+  border: 0;
+}
+
+.header-weather {
+  padding-left: 34px;
+
+  background-image: url("../img/icon-weather.png");
+  background-size: 29px 21px;
+}
+
+/* Header search */
+.header-search {
+  position: relative;
+  top: -6px;
+  right: 20px;
+
+  float: right;
+  width: 300px;
+  height: 45px;
+}
+
+.header-search input {
+  width: 320px;
+  height: 100%;
+  padding-left: 23px;
+
+  font-size: 14px;
+  letter-spacing: -0.02em;
+
+  background-color: #f6f6f6;
+  border: 0;
+  border-radius: 20px;
+}
+
+.header-search input:focus {
+  outline: none;
+}
+
+.header-search  input::-webkit-search-decoration,
+.header-search  input::-webkit-search-cancel-button,
+.header-search  input::-webkit-search-results-button,
+.header-search  input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.header-search button {
+  position: absolute;
+  top: 52%;
+  right: -1px;
+
+  width: 16px;
+  height: 16px;
+  padding: 0;
+
+  background: transparent url("../img/icon-search.png") center no-repeat;
+  background-size: contain;
+  border: none;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Header nav */
+.header-nav {
+  clear: both;
+  padding-top: 29px;
+  padding-bottom: 32px;
+}
+
+.header-nav-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.header-nav-item {
+  position: relative;
+
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.header-nav-item:not(:last-child)::after {
+  content: "/";
+  position: absolute;
+  right: 0;
+}
