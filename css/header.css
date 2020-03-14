@@ -8,7 +8,7 @@
 
 .header-intro {
   padding-top: 21px;
-  padding-bottom: 9px;
+  padding-bottom: 19px;
 
   font-weight: normal;
   color: #ffffff;
@@ -23,8 +23,7 @@
 
 .intro-description {
   float: left;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
 
   font-weight: 100;
   font-size: 16px;
@@ -36,25 +35,22 @@
 
 /* Header info*/
 .header-info {
-  padding: 40px 0 35px;
+  padding-top: 41px;
+  /*padding: 40px 0 35px;*/
 }
 
 .header-logo {
   float: left;
+  margin-right: 60px;
 }
 
 .header-add-info {
-  margin-right: 40px;
-
   color: #91919f;
 }
 
 .header-city {
-  position: relative;
-
   float: left;
   margin-right: 45px;
-  margin-left: 60px;
   padding-top: 12px;
 
   font-size: 0;  /* обнуляем шрифт, чтобы убрать текст label */
@@ -62,19 +58,16 @@
 
 .header-city::after {
   content: "";
-  position: absolute;
-  right: 17px;
-  bottom: 0;
-  left: 0;
 
+  display: block;
   height: 1px;
+  margin-right: 17px;
 
-  border-bottom: 2px dashed #448ccb;
+  border-bottom: 1px dashed #448ccb;
 }
 
 .header-city-list {
   padding-right: 17px;
-  padding-bottom: 2px;
 
   font-size: 16px; /* Восстанавливаем шрифт */
   color: #448ccb;
@@ -115,7 +108,7 @@
 }
 
 .header-weather {
-  padding-left: 34px;
+  padding-left: 38px;
 
   background-image: url("../img/icon-weather.png");
   background-size: 29px 21px;
@@ -174,7 +167,7 @@
 /* Header nav */
 .header-nav {
   clear: both;
-  padding-top: 35px;
+  padding-top: 34px;
   padding-bottom: 31px;
 }
 
@@ -186,8 +179,6 @@
 }
 
 .header-nav-item {
-  position: relative;
-
   display: inline-block;
   margin-right: 20px;
   padding-right: 20px;
