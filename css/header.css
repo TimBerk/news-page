@@ -45,7 +45,6 @@
 
 .header-add-info {
   margin-right: 40px;
-  padding-top: 5px;
 
   color: #91919f;
 }
@@ -56,7 +55,7 @@
   float: left;
   margin-right: 45px;
   margin-left: 60px;
-  padding-top: 7px;
+  padding-top: 12px;
 
   font-size: 0;  /* обнуляем шрифт, чтобы убрать текст label */
 }
@@ -92,7 +91,7 @@
 .header-day,
 .header-weather {
   float: left;
-  padding: 5px 0;
+  padding: 10px 0 5px;
 }
 
 .header-time,
@@ -124,17 +123,16 @@
 
 /* Header search */
 .header-search {
-  position: relative;
-  top: -6px;
-  right: 20px;
-
   float: right;
-  width: 300px;
+  width: 321px;
   height: 45px;
+
+  background-color: #f6f6f6;
+  border-radius: 20px;
 }
 
 .header-search-field {
-  width: 320px;
+  width: 285px;
   height: 100%;
   padding-left: 23px;
 
@@ -158,12 +156,12 @@
 }
 
 .header-search-btn {
-  position: absolute;
-  top: 52%;
-  right: -1px;
-
+  display: block;
+  float: right;
   width: 16px;
   height: 16px;
+  margin-top: 22px;
+  margin-right: 19px;
   padding: 0;
 
   background: transparent url("../img/icon-search.png") center no-repeat;
@@ -176,8 +174,8 @@
 /* Header nav */
 .header-nav {
   clear: both;
-  padding-top: 29px;
-  padding-bottom: 32px;
+  padding-top: 35px;
+  padding-bottom: 31px;
 }
 
 .header-nav-list {
