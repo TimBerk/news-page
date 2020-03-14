@@ -6,13 +6,14 @@
   background-color: #00122f;
 }
 
-.footer-main {
-  margin-bottom: 27px;
+/* Footer nav */
+.footer .footer-nav {
+  float: left;
+  min-height: 80px;
+  max-height: 165px;
 }
 
-/* Footer nav */
 .footer .footer-nav .footer-nav-list {
-  float: left;
   max-width: 250px;
   padding: 0;
 
@@ -34,13 +35,12 @@
 .footer-info {
   float: left;
   margin-left: 188px;
-}
-
-.footer-logo {
-  margin-top: 22px;
+  padding-top: 22px;
 }
 
 .footer-info .footer-nav .footer-nav-list {
+  margin-bottom: 0;
+
   columns: 1;
 }
 
@@ -48,11 +48,15 @@
 .footer-contacts {
   float: right;
   max-width: 250px;
-  padding-left: 29px;
+  padding-top: 18px;
+  padding-left: 28px;
 }
 
 .list-socials {
-  display: inline;
+  display: block;
+  height: 40px;
+  margin: 0;
+  padding: 0;
 
   list-style-type: none;
 }
@@ -67,7 +71,6 @@
 
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 40px;
 }
 
 .list-socials .social .vk {
@@ -87,7 +90,7 @@
 }
 
 .footer-adds {
-  margin-top: 82px;
+  margin-top: 40px;
 
   letter-spacing: -0.025em;
 }
@@ -103,7 +106,7 @@
 
 .footer-phone {
   display: inline-block;
-  padding-left: 34px;
+  padding-left: 32px;
 
   background-image: url("../img/icon-phone.png");
   background-size: 15px 15px;
@@ -113,7 +116,7 @@
 .footer-email {
   display: inline-block;
   margin-top: 23px;
-  padding-left: 34px;
+  padding-left: 32px;
 
   background-image: url("../img/icon-envelope.png");
   background-size: 13px 10px;
@@ -123,8 +126,10 @@
 /* Footer rights */
 .footer-rights {
   display: block;
+  margin-top: 44px;
+  margin-bottom: 0;
   padding-top: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 16px;
 
   text-align: center;
 

@@ -7,6 +7,7 @@
   float: left;
   width: 250px;
   margin-right: 20px;
+  padding-bottom: 25px;
 
   font-size: 14px;
 
@@ -31,7 +32,6 @@
 }
 
 .news {
-  clear: both;
   margin-bottom: 12px;
 
   color: #000000;
@@ -111,8 +111,6 @@
 
 /* Link all news */
 .news-all {
-  margin: 0 auto 25px;
-
   text-align: center;
 }
 .link-all {
@@ -136,13 +134,14 @@
 .news-big {
   position: relative;
 
-  padding: 110px 20px 31px 21px;
+  padding: 107px 20px 31px 19px;
 
   color: #ffffff;
 }
 
 .news-big .news-category {
   display: inline-block;
+  float: none;
 
   font-size: 13px;
   line-height: 16px;
@@ -150,7 +149,7 @@
 }
 
 .news-big .news-link {
-  margin-top: 32px;
+  margin-top: 17px;
   margin-bottom: 13px;
 }
 
@@ -159,6 +158,10 @@
   font-size: 30px;
   line-height: 35px;
   letter-spacing: -0.02em;
+}
+
+.news-big .news-info {
+  text-align: left;
 }
 
 .news-big .news-time {
@@ -184,18 +187,18 @@
 }
 
 .news-wrapper {
-  padding-top: 20px;
+  padding-top: 18px;
 }
 
 .news-wrapper .news {
   display: inline-block;
+  float: left;
   width: 220px;
   max-width: 220px;
   margin-bottom: 9px;
 }
 
 .news-wrapper .news:nth-child(odd) {
-  float: left;
   margin-right: 20px;
 }
 
@@ -232,7 +235,7 @@
 .most-read .news-big {
   float: left;
   width: 587px;
-  padding: 104px 20px 31px 21px;
+  padding: 102px 20px 31px 21px;
 }
 
 .most-read .news-big-photo {
@@ -240,7 +243,7 @@
 }
 
 .most-read .news-big .news-link {
-  margin-top: 36px;
+  margin-top: 19px;
   margin-bottom: 8px;
 }
 
@@ -269,6 +272,7 @@
 }
 
 .most-read .news-day-list {
+  height: 320px;
   padding-top: 26px;
 }
 
@@ -296,10 +300,6 @@
   letter-spacing: -0.018em;
 }
 
-.most-read .news-time {
-  right: 263px;
-}
-
 .most-read .news-comments {
-  margin-right: 170px;
+  margin-right: 214px;
 }

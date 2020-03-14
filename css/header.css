@@ -7,7 +7,7 @@
 }
 
 .header-intro {
-  padding-top: 21px;
+  padding-top: 17px;
   padding-bottom: 19px;
 
   font-weight: normal;
@@ -36,7 +36,6 @@
 /* Header info*/
 .header-info {
   padding-top: 41px;
-  /*padding: 40px 0 35px;*/
 }
 
 .header-logo {
@@ -137,10 +136,6 @@
   border-radius: 20px;
 }
 
-.header-search-field:focus {
-  outline: none;
-}
-
 .header-search-field::-webkit-search-decoration,
 .header-search-field::-webkit-search-cancel-button,
 .header-search-field::-webkit-search-results-button,
@@ -180,12 +175,11 @@
 
 .header-nav-item {
   display: inline-block;
-  margin-right: 20px;
-  padding-right: 20px;
+  margin-right: 12px;
 }
 
 .header-nav-item:not(:last-child)::after {
   content: "/";
-  position: absolute;
-  right: 0;
+
+  margin-left: 20px;
 }
