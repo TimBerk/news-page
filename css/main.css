@@ -12,13 +12,10 @@
 
   background-color: #ffffff;
 }
-.news-day h2,
-.news-day h3 {
-  margin: 0;
-}
 
 .news-day-title {
-  padding: 23px 20px 23px;
+  margin: 0;
+  padding: 22px 19px 23px;
 
   font-weight: bold;
   font-size: 20px;
@@ -41,6 +38,7 @@
 }
 
 .news-title {
+  margin: 0;
   padding-top: 3px;
 
   font: 14px/20px "Arial", sans-serif;
@@ -157,7 +155,7 @@
   margin-bottom: 13px;
 }
 
-.news-big .news-link a {
+.news-big .news-link-text {
   font-weight: 700;
   font-size: 30px;
   line-height: 35px;
@@ -272,6 +270,7 @@
 }
 
 .most-read-title {
+  margin: 0;
   padding-top: 8px;
   padding-bottom: 25px;
   padding-left: 20px;

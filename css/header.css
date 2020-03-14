@@ -17,8 +17,13 @@
   background-color: #00122f;;
 }
 
+.intro-link {
+  border-bottom: 1px solid #ffffff;
+}
+
 .intro-description {
   float: left;
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 100;
@@ -84,23 +89,23 @@
           appearance: none;
 }
 
-.header-time,
+.header-day,
 .header-weather {
   float: left;
   padding: 5px 0;
 }
 
-.header-time span,
+.header-time,
 .header-weather {
   background-repeat: no-repeat;
   background-position: left center;
 }
 
-.header-time {
+.header-day {
   margin-right: 22px;
 }
 
-.header-time span {
+.header-time {
   display: inline-block;
   margin-left: 35px;
   padding-left: 25px;
@@ -128,7 +133,7 @@
   height: 45px;
 }
 
-.header-search input {
+.header-search-field {
   width: 320px;
   height: 100%;
   padding-left: 23px;
@@ -141,18 +146,18 @@
   border-radius: 20px;
 }
 
-.header-search input:focus {
+.header-search-field:focus {
   outline: none;
 }
 
-.header-search  input::-webkit-search-decoration,
-.header-search  input::-webkit-search-cancel-button,
-.header-search  input::-webkit-search-results-button,
-.header-search  input::-webkit-search-results-decoration {
+.header-search-field::-webkit-search-decoration,
+.header-search-field::-webkit-search-cancel-button,
+.header-search-field::-webkit-search-results-button,
+.header-search-field::-webkit-search-results-decoration {
   display: none;
 }
 
-.header-search button {
+.header-search-btn {
   position: absolute;
   top: 52%;
   right: -1px;

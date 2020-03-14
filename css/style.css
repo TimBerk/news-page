@@ -35,15 +35,6 @@ a {
 a:focus {
   outline: none;
 }
-h2,
-h3 {
-  margin: 0;
-}
-
-h1,
-p {
-  margin-top: 0;
-}
 
 .visually-hidden {
   position: absolute !important;
@@ -69,8 +60,4 @@ p {
 .container {
   width: 1000px;
   margin: 0 auto;
-}
-
-.custom-link {
-  border-bottom: 1px solid #ffffff;
 }

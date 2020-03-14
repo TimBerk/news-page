@@ -57,11 +57,11 @@
   list-style-type: none;
 }
 
-.list-socials .social:not(:last-child) a {
+.list-socials .social:not(:last-child) .social-link {
   margin-right: 20px;
 }
 
-.list-socials .social a {
+.list-socials .social .social-link {
   float: left;
   padding: 20px;
 
@@ -130,8 +130,7 @@
 
   border-top: 1px solid #26354e;
 }
-.footer-rights small {
+.footer-rights-text {
   font-size: 13px;
   color: #ebebeb;
-  letter-spacing: 0.015em;
 }

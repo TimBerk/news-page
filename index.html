@@ -17,7 +17,7 @@
 		<div class="header-intro">
 			<div class="container clearfix">
 				<h1 class="intro-description">
-					Самые <a class="intro-link custom-link" href="#">свежие новости</a> в реальном времени
+					Самые <a class="intro-link" href="#">свежие новости</a> в реальном времени
 				</h1>
 
 				<time class="intro-time" datetime="2018-06-19 12:30">12:30 19.06.2018</time>
@@ -39,17 +39,17 @@
 
 					  </label>
 
-					<time class="header-time" datetime="2018-06-19 10:48">19 июня, вторник
-						<span>10:48</span>
+					<time class="header-day" datetime="2018-06-19 10:48">19 июня, вторник
+						<span class="header-time">10:48</span>
 					</time>
 
 					<span class="header-weather">+  22 &#8451;</span>
 				</div>
 
 				<form action="post" class="header-search" method="POST">
-					<input type="search" name="site-search" placeholder="Поиск по сайту">
+					<input class="header-search-field" type="search" name="site-search" placeholder="Поиск по сайту">
 
-					<button type="submit" aria-label="Найти">&nbsp;</button>
+					<button class="header-search-btn" type="submit" aria-label="Найти">&nbsp;</button>
 				</form>
 			</div>
 		</div>
@@ -199,7 +199,7 @@
         <a class="news-category" href="#">Политика</a>
 
         <h3 class="news-link">
-          <a href="#">
+          <a href="#" class="news-link-text">
             В Крыму отреагировали<br>на слова Кравчука<br>о возврате полуострова
           </a>
         </h3>
@@ -305,7 +305,7 @@
         <a class="news-category" href="#">Политика</a>
 
         <h3 class="news-link">
-          <a href="#">
+          <a href="#" class="news-link-text">
             Пекин обвинил Вашингтон<br>в развязывании торговой<br>войны
           </a>
         </h3>
@@ -411,10 +411,10 @@
 
 				<div class="footer-contacts">
 					<ul class="list-socials">
-						<li class="social"><a class="vk" href="#" aria-label="Мы вконтакте"></a></li>
-						<li class="social"><a class="fb" href="#" aria-label="Мы в Facebook"></a></li>
-						<li class="social"><a class="tw" href="#" aria-label="Мы в Twitter"></a></li>
-						<li class="social"><a class="insta" href="#" aria-label="Мы в Instagram"></a></li>
+						<li class="social"><a class="social-link vk" href="#" aria-label="Мы вконтакте"></a></li>
+						<li class="social"><a class="social-link fb" href="#" aria-label="Мы в Facebook"></a></li>
+						<li class="social"><a class="social-link tw" href="#" aria-label="Мы в Twitter"></a></li>
+						<li class="social"><a class="social-link insta" href="#" aria-label="Мы в Instagram"></a></li>
 					</ul>
 
 					<address class="footer-adds">
@@ -430,7 +430,7 @@
 			</div>
 
 			<p class="footer-rights">
-				<small>© Новостное агентство, 2017-2018 все права защищены</small>
+				<small class="footer-rights-text">© Новостное агентство, 2017-2018 все права защищены</small>
 			</p>
 	</footer>
 </body>
