@@ -44,6 +44,8 @@
 }
 
 .header-add-info {
+  display: inline-block;
+
   color: #91919f;
 }
 
@@ -126,6 +128,7 @@
 .header-search-field {
   width: 285px;
   height: 100%;
+  padding-right: 10px;
   padding-left: 23px;
 
   font-size: 14px;
@@ -146,8 +149,8 @@
 .header-search-btn {
   display: block;
   float: right;
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   margin-top: 22px;
   margin-right: 19px;
   padding: 0;
@@ -181,5 +184,5 @@
 .header-nav-item:not(:last-child)::after {
   content: "/";
 
-  margin-left: 20px;
+  padding-left: 20px;
 }

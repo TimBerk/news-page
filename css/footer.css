@@ -13,15 +13,16 @@
   max-height: 165px;
 }
 
-.footer .footer-nav .footer-nav-list {
+.footer .footer-nav-list {
   max-width: 250px;
+  margin-bottom: 0;
   padding: 0;
 
   list-style-type: none;
   columns: 2;
 }
 
-.footer .footer-nav .footer-nav-item {
+.footer .footer-nav-item {
   margin-bottom: 13px;
   padding: 0;
 
@@ -38,9 +39,11 @@
   padding-top: 22px;
 }
 
-.footer-info .footer-nav .footer-nav-list {
-  margin-bottom: 0;
+.footer-logo {
+  display: block;
+}
 
+.footer-info .footer-nav-list {
   columns: 1;
 }
 
@@ -53,8 +56,6 @@
 }
 
 .list-socials {
-  display: block;
-  height: 40px;
   margin: 0;
   padding: 0;
 
@@ -62,35 +63,41 @@
 }
 
 .list-socials .social:not(:last-child) .social-link {
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
-.list-socials .social .social-link {
-  float: left;
+.list-socials .social {
+  display: inline-block;
+}
+
+.list-socials .social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
   padding: 20px;
 
   background-repeat: no-repeat;
   background-position: left center;
 }
 
-.list-socials .social .vk {
+.list-socials .vk {
   background-image: url("./../img/social/vk.png");
 }
 
-.list-socials .social .fb {
+.list-socials .fb {
   background-image: url("./../img/social/fb.png");
 }
 
-.list-socials .social .tw {
+.list-socials .tw {
   background-image: url("./../img/social/tw.png");
 }
 
-.list-socials .social > .insta {
+.list-socials .insta {
   background-image: url("./../img/social/inst.png");
 }
 
 .footer-adds {
-  margin-top: 40px;
+  margin-top: 36px;
 
   letter-spacing: -0.025em;
 }
@@ -115,7 +122,7 @@
 
 .footer-email {
   display: inline-block;
-  margin-top: 23px;
+  margin-top: 24px;
   padding-left: 32px;
 
   background-image: url("../img/icon-envelope.png");
@@ -126,7 +133,7 @@
 /* Footer rights */
 .footer-rights {
   display: block;
-  margin-top: 44px;
+  margin-top: 47px;
   margin-bottom: 0;
   padding-top: 15px;
   padding-bottom: 16px;
