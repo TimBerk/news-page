@@ -30,10 +30,6 @@ a {
   text-decoration: none;
 }
 
-a:focus {
-  outline: none;
-}
-
 .visually-hidden {
   position: absolute !important;
 

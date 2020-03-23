@@ -62,7 +62,7 @@
   list-style-type: none;
 }
 
-.list-socials .social:not(:last-child) .social-link {
+.list-socials .social:not(:last-child) {
   margin-right: 16px;
 }
 
