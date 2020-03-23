@@ -1,5 +1,5 @@
 .main-content {
-  padding: 22px 0 58px;
+  padding: 22px 0 60px;
 }
 
 /* Simple news */
@@ -264,6 +264,7 @@
 
 .most-read .news-big .news-info {
   margin-top: 0;
+  padding-right: 0;
 
   line-height: 20px;
 }
@@ -281,9 +282,6 @@
   overflow: hidden;
 
   letter-spacing: 0.07em;
-  text-overflow: ellipsis;
-
-  -webkit-line-clamp: 3;
 }
 
 .most-read .news-wrapper {
@@ -293,10 +291,12 @@
 
   line-height: 21px;
   letter-spacing: -0.02em;
+
+  background: #ffffff;
 }
 
 .most-read .news-day-list {
-  height: 320px;
+  min-height: 318px;
   padding-top: 26px;
   padding-left: 20px;
 }
@@ -312,6 +312,7 @@
   font-size: 20px;
   text-align: left;
 
+  background: #ffffff;
   border-bottom: 1px solid #ebebeb;
 }
 
@@ -328,6 +329,10 @@
 
 .most-read .news:not(:last-child) {
   margin-bottom: 23px;
+}
+
+.most-read .news:last-child {
+  margin-bottom: 0;
 }
 
 .most-read .news .news-title {
